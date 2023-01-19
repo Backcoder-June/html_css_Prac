@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+   <head>
+      <title>html학습</title>
+      <meta charset="utf-8">
+<!-- 다운받아온 css-reset cdn -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+<style>
+#link {
+   color: blue;
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+h2 {
+   color: aquamarine;
+   font-size: 50px;
+}
+
+/* reset 초기화 시키는 것. 기본 h 에 들어있는 style 기능들을 초기화 시켜놓고 style 작업을 하는 것  */
+/* h1,h2,h3,h4,h5,h6 {
+   font-size: 1rem;
+   color: inherit;
+   margin: 0;
+   padding: 0;
+   font-weight: 10;
+} */
+</style>
+   </head>
+  
+   <body>
+      <h1>h1은 가장 중요한 제목에 적겠다는 약속이다. style 이 아니다</h1>
+
+      <h2>태그들은 이렇게 약속을 지켜가면서 틀을 짜가는 것</h2>
+
+      <h1>안녕하세요1</h1>
+      <h2>안녕하세요2</h2>
+      <h3>안녕하세요3</h3>
+      <h4>안녕하세요4</h4>
+      <h5>안녕하세요5</h5>
+
+      
+      #h${안녕하세요}*6
+
+      <a href="https://www.naver.com"> 네이버 </a>
+
+
+      <ol>
+         <li>리스트면</li>
+         <li>리스트로</li>
+         <li>약속이다</li>
+      </ol>
+
+      <div>디브는 진짜 의미없는 빈깡통용도</div>
+
+
+      <div id="link">구글 링크</div>
+      <script>
+         const link = document.querySelector('div');
+         link.onclick = e => {
+            window.location.href = 'https://google.com'
+         };
+
+
+      </script>
+      <p>프로그래밍 너무 쉽고 재밌다~~~</p>
+
+
+      <p>
+         &lt;div&gt;태그는 아무 의미가 없는 블록요소입니다.
+
+      </p>
+
+   </body>
+</html>
